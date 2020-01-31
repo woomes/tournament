@@ -1,0 +1,26 @@
+{
+    "1" : {
+      "tag" : "1",
+      "name": "Chipotle",
+      "cuisine": "Mexican",
+      "price": "$$"
+    },
+    "2" : {
+      "tag" : "2",
+      "name": "10Q",
+      "cuisine": "Korean",
+      "meets": "$"
+    },
+    "3" : {
+      "tag" : "3",   
+      "name": "BK",
+      "cuisine": "Fast food",
+      "price": "MWF 13:00-13:50"
+    },
+    "4" : {
+      "tag" : "4",
+      "name": "Koco",
+      "cuisine": "Korean",
+      "price": "$$$"
+    }
+}
