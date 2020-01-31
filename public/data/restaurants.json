@@ -9,13 +9,13 @@
       "tag" : "2",
       "name": "10Q",
       "cuisine": "Korean",
-      "meets": "$"
+      "price": "$"
     },
     "3" : {
       "tag" : "3",   
       "name": "BK",
       "cuisine": "Fast food",
-      "price": "MWF 13:00-13:50"
+      "price": "$$$"
     },
     "4" : {
       "tag" : "4",
