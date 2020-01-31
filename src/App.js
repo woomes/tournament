@@ -4,6 +4,8 @@ import { Container, Card, Title, Column } from "rbx"
 import Restaurant from "./components/Restaurant"
 import RestaurantTournament from "./components/RestaurantTournament"
 
+
+
 const App = () => {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -17,19 +19,17 @@ const App = () => {
     };
     fetchProducts();
    }, []);
-
-  console.log(restaurants);
   
   return (
     isLoading ?
     <Title> isLoading </Title>
     : 
-    <Container fluid>
+    <Container>
       <Title>Pick-a-place</Title> 
       <RestaurantTournament 
       restaurantA={ restaurants[0] } 
       restaurantB={ restaurants[1] }/>
     </Container>
   );
-}
+};
 export default App;
